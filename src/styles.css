@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cdk-drag-preview {
+  @apply opacity-50;
+}
+
+.cdk-drag-placeholder {
+  @apply border-blue-500;
+}
+
+.cdk-drop-list-dragging {
+  @apply border-blue-500;
+}
